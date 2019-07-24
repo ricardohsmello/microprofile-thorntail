@@ -19,7 +19,7 @@ Navigate until ricas-backend
 - mvn wildfly:run
   - The server i'll be listen on port 8080
 
-## Running:
+## Running
 Type the follow URL on browser
 http://localhost:9090/api/greeting?=HELLO
 
