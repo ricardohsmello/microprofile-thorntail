@@ -4,7 +4,7 @@
 - ricas-backend
 - ricas-microservices
 
-# Tecnology
+## Tecnology
 - Spring boot
 - HttpRequest
 - Wildfly
