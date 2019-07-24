@@ -1,4 +1,7 @@
 # My Hello World from microservices
+
+This is an example of microservices using java. The ricas-microservices spring-boot applications, receive a request and calls the ricas-backend maven module using rest-template.
+
 ## This microservice project includes three projects
 - ricas-microprofile
 - ricas-backend
