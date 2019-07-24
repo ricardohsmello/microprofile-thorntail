@@ -1,8 +1,13 @@
 # My Hello World from microservices
-## Repository from microservices that includes three projects
-- Microprofile
+## This microservice project includes three projects
+- ricas-microprofile
 - ricas-backend
 - ricas-microservices
+
+# Tecnology
+- Spring boot
+- HttpRequest
+- Wildfly
 
 # Usage
 ## Config
