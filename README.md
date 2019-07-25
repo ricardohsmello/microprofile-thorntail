@@ -24,7 +24,7 @@ Make sure that the ricas-microservices is running and navigate until ricas-backe
 
 ## Running
 Type the follow URL on browser
-http://localhost:9090/api/greeting?=HELLO
+http://localhost:9090/api/greeting
 
 ## Output
 Hello Spring Boot application from cluster backend at host: 192.168.68.2
