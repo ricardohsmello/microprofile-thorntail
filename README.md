@@ -18,7 +18,7 @@ Navigate until ricas-microservices root and run:
 - mvn spring-boot:run
   - The spring boot server i'll be listen on port 9090
   
-Navigate until ricas-backend
+Make sure that the ricas-microservices is running and navigate until ricas-backend and run: 
 - mvn wildfly:run
   - The server i'll be listen on port 8080
 
