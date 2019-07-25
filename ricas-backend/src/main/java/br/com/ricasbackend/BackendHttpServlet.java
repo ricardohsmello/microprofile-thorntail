@@ -1,4 +1,4 @@
-package br.com.ricas_backend;
+package br.com.ricasbackend;
 
 import java.io.IOException;
 import java.io.PrintWriter;
