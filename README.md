@@ -14,7 +14,7 @@ This is an example of microservices using java. The ricas-microservices is a spr
 
 # Usage
 ## Config
-Navigate until ricas-microfiles root and run:
+Navigate until ricas-microservices root and run:
 - mvn spring-boot:run
   - The spring boot server i'll be listen on port 9090
   
