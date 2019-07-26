@@ -2,7 +2,7 @@
 
 This is an example of microservices using Java. 
 
-This repository has a distributed architecture system using four projects, where exists a service layer that invoke others two microservices, such spring boot and microprofile service. These microservices call backend api as you can see in image below:
+This repository has a distributed architecture system using four services, where exists a service layer that invoke others two microservices, such spring boot and microprofile service. These microservices call backend api as you can see in image below:
 
 ![Quick Start architecture for ricardohsmello/microservices](https://imagizer.imageshack.com/img923/7379/JwX5Le.png)
 
