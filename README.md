@@ -4,6 +4,8 @@ This is an example of microservices using java. The ricas-microservices is a spr
 
 We can run the ricas-microprofile project to do the same thing above.
 
+![Quick Start architecture for ricardohsmello/microservices](https://imagizer.imageshack.com/v2/752x452q90/r/923/4wtnFL.png)
+
 ## This microservice project includes three projects
 - ricas-microprofile
 - ricas-backend
