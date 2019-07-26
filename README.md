@@ -21,6 +21,14 @@ Navigate until ricas-microservices root and run:
 Make sure that the ricas-microservices is running and navigate until ricas-backend and run: 
 - mvn wildfly:run
   - The server i'll be listen on port 8080
+  
+ Connecting microprofile to backend
+ - Navigate until backend folder and run
+   - mvn clean wildfly:run
+ - Navigate until ricas-microfile project and run:
+   - mvn thorntail:run "-Dswarm.network.socket-binding-groups.standard-sockets.port-offset=100"
+   #### Note: the above command changes the default port of wildfly to not collide with backend service 
+
 
 ## Running
 Type the follow URL on browser
