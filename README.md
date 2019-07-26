@@ -14,17 +14,17 @@ This is an example of microservices using java. The ricas-microservices is a spr
 
 # Usage
 ## Config
-Navigate until ricas-microfiles root and run:
+Navigate until ricas-microservices root and run:
 - mvn spring-boot:run
   - The spring boot server i'll be listen on port 9090
   
-Navigate until ricas-backend
+Make sure that the ricas-microservices is running and navigate until ricas-backend and run: 
 - mvn wildfly:run
   - The server i'll be listen on port 8080
 
 ## Running
 Type the follow URL on browser
-http://localhost:9090/api/greeting?=HELLO
+http://localhost:9090/api/greeting
 
 ## Output
 Hello Spring Boot application from cluster backend at host: 192.168.68.2
