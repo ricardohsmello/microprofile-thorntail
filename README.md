@@ -2,7 +2,7 @@
 
 This is an example of microservices using java. The ricas-microservices is a spring-boot application that receive a http request and calls the ricas-backend maven module using rest-template.
 
-We can run the micro-profile project to do the same thing above.
+We can run the ricas-microprofile project to do the same thing above.
 
 ## This microservice project includes three projects
 - ricas-microprofile
