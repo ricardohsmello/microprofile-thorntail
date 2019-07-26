@@ -8,8 +8,8 @@ This repository has a distributed architecture system using four projects, where
 
 ## This microservice project includes four projects
 - ricas-api-gateway
-- ricas-microprofile
 - ricas-microservices
+- ricas-microprofile
 - ricas-backend
 
 ## Technology
