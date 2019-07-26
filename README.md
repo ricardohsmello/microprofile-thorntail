@@ -18,7 +18,7 @@ We have an distributed architecture in some services, where exists a service lay
 - Apache Camel
 
 # Usage
-## Config
+## Running
 Navigate until ricas-backend root and run:
 - mvn clean wildfly:run
 
@@ -33,7 +33,7 @@ mvn thorntail:run -Dswarm.network.socket-binding-groups.standard-sockets.port-of
  #### Note: the above command changes the default port of wildfly to not collide with backend wildfly 9090 port service 
 
 
-## Running
+## Testing
 Type the follow URL on browser
 http://localhost:8380/api/gateway
 
