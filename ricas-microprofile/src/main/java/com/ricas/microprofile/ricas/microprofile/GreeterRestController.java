@@ -24,7 +24,7 @@ import org.eclipse.microprofile.opentracing.Traced;
 public class GreeterRestController {
 
     @Inject
-    @ConfigProperty(name="greeting.saying", defaultValue = "Hello")
+    @ConfigProperty(name="greeting.saying", defaultValue = "Hello microprofile")
     private String saying;
 
     @Inject
