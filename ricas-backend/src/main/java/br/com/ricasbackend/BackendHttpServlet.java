@@ -19,6 +19,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @WebServlet(urlPatterns = {"/api/backend"})
 public class BackendHttpServlet extends HttpServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7970655490103035710L;
+
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 

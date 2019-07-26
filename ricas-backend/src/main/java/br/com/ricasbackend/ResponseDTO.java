@@ -1,4 +1,4 @@
-package br.com.ricas_backend;
+package br.com.ricasbackend;
 
 public class ResponseDTO {
 
