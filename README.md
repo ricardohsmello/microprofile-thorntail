@@ -1,6 +1,6 @@
 # My Hello World from microservices
 
-This is an example of microservices using java. 
+This is an example of microservices using Java. 
 
 We have an distributed architecture in some services, where exists a service layer that invoke others two microservices, such spring boot and microprofile service. These microservices call backend api as you can see in image below:
 
