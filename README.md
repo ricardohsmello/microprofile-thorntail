@@ -39,4 +39,4 @@ Type the follow URL on browser
 http://localhost:8380/api/gateway
 
 ## Output
-["Hello Spring Boot application from the cluster backend at host: 192.168.68.2","Hello from the cluster backend at host: 192.168.68.2"]
+["Hello microservices Spring Boot application from the cluster backend at host: 192.168.68.2","Hello picroprofile from the cluster backend at host: 192.168.68.2"]
