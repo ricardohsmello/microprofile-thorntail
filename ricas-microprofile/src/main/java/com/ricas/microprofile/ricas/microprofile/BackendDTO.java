@@ -1,5 +1,9 @@
 package com.ricas.microprofile.ricas.microprofile;
 
+/**
+ * @author ricardo.mello
+ *
+ */
 public class BackendDTO {
 
     private String greeting;

@@ -1,21 +1,25 @@
 package com.ricas.microprofile.ricas.microprofile;
 
-import io.opentracing.*;
-import io.opentracing.Scope;
-import io.opentracing.contrib.jaxrs2.client.*;
-import io.opentracing.contrib.tracerresolver.*;
-import io.opentracing.propagation.*;
-import org.eclipse.microprofile.config.inject.*;
-import org.eclipse.microprofile.faulttolerance.*;
-import org.eclipse.microprofile.opentracing.*;
+import javax.inject.Inject;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.core.MediaType;
 
-import javax.inject.*;
-import javax.ws.rs.*;
-import javax.ws.rs.client.*;
-import javax.ws.rs.core.*;
-import java.net.*;
-import java.util.*;
+import org.eclipse.microprofile.config.inject.ConfigProperty;
+import org.eclipse.microprofile.faulttolerance.CircuitBreaker;
+import org.eclipse.microprofile.faulttolerance.Fallback;
+import org.eclipse.microprofile.faulttolerance.Timeout;
+import org.eclipse.microprofile.opentracing.ClientTracingRegistrar;
+import org.eclipse.microprofile.opentracing.Traced;
 
+
+/**
+ * @author ricardo.mello
+ *
+ */
 @Path("/api")
 public class GreeterRestController {
 

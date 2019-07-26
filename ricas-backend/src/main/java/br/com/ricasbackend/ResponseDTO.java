@@ -1,5 +1,9 @@
 package br.com.ricasbackend;
 
+/**
+ * @author ricardo.mello
+ *
+ */
 public class ResponseDTO {
 
 	private String greeting;

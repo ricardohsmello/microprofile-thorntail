@@ -12,8 +12,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+
 /**
- * Hello world!
+ * @author ricardo.mello
  *
  */
 @WebServlet(urlPatterns = {"/api/backend"})
@@ -33,7 +34,7 @@ public class BackendHttpServlet extends HttpServlet {
 		String greeting = req.getParameter("greeting");
 
 		ResponseDTO response = new ResponseDTO();
-		response.setGreeting(greeting + " from cluster backend");
+		response.setGreeting(greeting + " from the cluster backend");
 		response.setTime(System.currentTimeMillis());
 		response.setIp(getIp());
 

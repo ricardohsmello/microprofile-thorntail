@@ -1,5 +1,9 @@
 package com.ricas.ricasmicroservices;
 
+/**
+ * @author ricardo.mello
+ *
+ */
 public class BackendDTO {
 
     private String greeting;

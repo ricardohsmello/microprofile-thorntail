@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * @author ricardo.mello
+ *
+ */
 @RestController
 @RequestMapping("/api")
 @ConfigurationProperties(prefix = "greeting")
@@ -20,10 +24,9 @@ public class GreeterRestController {
 
 	@RequestMapping(value = "/greeting", method = RequestMethod.GET, produces = "text/plain")
 	public String greeting() {
-//		String backendServiceUrl = String.format("http://%s:%d/api/backend?greeting={greeting}", backendServiceHost,
-//				backendServicePort);
+		String backendServiceUrl = String.format("http://%s:%d/api/backend?greeting={greeting}", backendServiceHost,
+				backendServicePort);
 
-		String backendServiceUrl = "http://localhost:8080/resource";
 		System.out.println("Sending to " + backendServiceUrl);
 		
 		BackendDTO response = template.getForObject(backendServiceUrl, BackendDTO.class, saying);

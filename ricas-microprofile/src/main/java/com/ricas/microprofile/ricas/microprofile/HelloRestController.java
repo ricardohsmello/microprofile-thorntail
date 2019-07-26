@@ -11,6 +11,10 @@ import javax.ws.rs.Produces;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 
+/**
+ * @author ricardo.mello
+ *
+ */
 @Path("/api")
 public class HelloRestController {
 
