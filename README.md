@@ -19,25 +19,23 @@ We have an distributed architecture in some services, where exists a service lay
 
 # Usage
 ## Config
-Navigate until ricas-microservices root and run:
-- mvn spring-boot:run
-  - The spring boot server i'll be listen on port 9090
+Navigate until ricas-backend root and run:
+- mvn clean wildfly:run
+
+Navigate until ricas-api-gateway and run:
+- mvn spring-boot:run -Dserver.port=8380
   
-Make sure that the ricas-microservices is running and navigate until ricas-backend and run: 
-- mvn wildfly:run
-  - The server i'll be listen on port 8080
-  
- Connecting microprofile to backend
- - Navigate until backend folder and run
-   - mvn clean wildfly:run
- - Navigate until ricas-microfile project and run:
-   - mvn thorntail:run "-Dswarm.network.socket-binding-groups.standard-sockets.port-offset=100"
-   #### Note: the above command changes the default port of wildfly to not collide with backend service 
+Navigate until ricas-microservices and run:  
+- mvn clean spring-boot:run -Dserver.port=8180
+
+Navigate until ricas-microprofile and run: 
+mvn thorntail:run -Dswarm.network.socket-binding-groups.standard-sockets.port-offset=200
+ #### Note: the above command changes the default port of wildfly to not collide with backend wildfly 9090 port service 
 
 
 ## Running
 Type the follow URL on browser
-http://localhost:9090/api/greeting
+http://localhost:8380/api/gateway
 
 ## Output
-Hello Spring Boot application from cluster backend at host: 192.168.68.2
+["Hello Spring Boot application from the cluster backend at host: 192.168.68.2","Hello from the cluster backend at host: 192.168.68.2"]
