@@ -7,10 +7,10 @@ This repository has a distributed architecture system using four projects, where
 ![Quick Start architecture for ricardohsmello/microservices](https://imagizer.imageshack.com/v2/752x452q90/r/923/4wtnFL.png)
 
 ## This microservice project includes four projects
-- ricas-microprofile
-- ricas-backend
-- ricas-microservices
 - ricas-api-gateway
+- ricas-microprofile
+- ricas-microservices
+- ricas-backend
 
 ## Technology
 - Spring boot
