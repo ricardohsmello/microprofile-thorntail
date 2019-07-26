@@ -16,6 +16,7 @@ This repository has a distributed architecture system using four projects, where
 - Spring boot
 - Wildfly
 - Apache Camel
+- Microprofile Thorntail
 
 # Usage
 ## Running
