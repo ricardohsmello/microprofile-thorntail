@@ -6,7 +6,7 @@ This repository has a distributed architecture system using four projects, where
 
 ![Quick Start architecture for ricardohsmello/microservices](https://imagizer.imageshack.com/img923/5606/n4WP7I.png)
 
-## This microservice project includes four projects
+## This microservice project includes four services
 - ricas-api-gateway
 - ricas-microservices
 - ricas-microprofile
