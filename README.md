@@ -2,7 +2,7 @@
 
 This is an example of microservices using java. 
 
-We have an archicheture distributed in some services, where exists a service layer ricas-api-gatewayan that invoke others two microservice, such spring boot and microprofile service. Thats services, call backend api as you can see in image below:
+We have an distributed architecture in some services, where exists a service layer ricas-api-gatewayan that invoke others two microservice, such spring boot and microprofile service. Thats services, call backend api as you can see in image below:
 
 ![Quick Start architecture for ricardohsmello/microservices](https://imagizer.imageshack.com/v2/752x452q90/r/923/4wtnFL.png)
 
