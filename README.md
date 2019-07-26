@@ -36,5 +36,5 @@ Navigate until ricas-microprofile and run:
 Type the follow URL on browser
 http://localhost:8380/api/gateway
 
-# Output
+- Output
 ["Hello microservices Spring Boot application from the cluster backend at host: 192.168.68.2","Hello microprofile from the cluster backend at host: 192.168.68.2"]
