@@ -29,7 +29,7 @@ Navigate until ricas-microservices and run:
 - mvn clean spring-boot:run -Dserver.port=8180
 
 Navigate until ricas-microprofile and run: 
-mvn thorntail:run -Dswarm.network.socket-binding-groups.standard-sockets.port-offset=200
+- mvn thorntail:run -Dswarm.network.socket-binding-groups.standard-sockets.port-offset=200
  #### Note: the above command changes the default port of wildfly to not collide with backend wildfly 9090 port service 
 
 
