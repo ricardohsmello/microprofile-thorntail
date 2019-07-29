@@ -18,7 +18,7 @@ This repository has a distributed architecture system using four services, where
 - Apache Camel
 - Microprofile Thorntail
 
-# Usage
+## Usage
 Navigate until ricas-backend root and run:
 - mvn clean wildfly:run
 
