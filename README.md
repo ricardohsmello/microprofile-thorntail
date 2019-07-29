@@ -20,7 +20,9 @@ This repository has a distributed architecture system using four services, where
 
 ## Usage
 Navigate until ricas-backend root and run:
+```
 - mvn clean wildfly:run
+```
 
 Navigate until ricas-api-gateway and run:
 ```
@@ -36,11 +38,13 @@ Navigate until ricas-microprofile and run:
 ```
 - mvn thorntail:run -Dswarm.network.socket-binding-groups.standard-sockets.port-offset=200
 ```
-  - ###### Note: the above command changes the default port of wildfly to not collide with backend wildfly 9090 port service 
+    - ###### Note: the above command changes the default port of wildfly to not collide with backend wildfly 9090 port service 
 
 ## Running
 Type the follow URL on browser
+```
 http://localhost:8380/api/gateway
+```
 
 - Output
 ["Hello microservices Spring Boot application from the cluster backend at host: 192.168.68.2","Hello microprofile from the cluster backend at host: 192.168.68.2"]
