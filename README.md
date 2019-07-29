@@ -12,7 +12,7 @@ This repository has a distributed architecture system using four services, where
 - ricas-microprofile
 - ricas-backend
 
-## Stack
+## Built With
 - Spring boot
 - Wildfly
 - Apache Camel
