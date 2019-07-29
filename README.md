@@ -37,8 +37,9 @@ Navigate until ricas-microservices and run:
 Navigate until ricas-microprofile and run: 
 ```
 - mvn thorntail:run -Dswarm.network.socket-binding-groups.standard-sockets.port-offset=200
-    - ###### Note: the above command changes the default port of wildfly to not collide with backend wildfly 9090 port service 
 ```
+- ###### Note: the above command changes the default port of wildfly to not collide with backend wildfly 9090 port service 
+
 ## Running
 Type the follow URL on browser
 ```
