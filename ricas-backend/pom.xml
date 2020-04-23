@@ -34,7 +34,7 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 
 		<!-- Jackason Dependency -->
-		<jackson-version>2.9.9</jackson-version>
+		<jackson-version>2.9.10.4</jackson-version>
 	</properties>
 
 	<dependencyManagement>
