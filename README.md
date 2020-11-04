@@ -1,9 +1,6 @@
 ![Issues](https://img.shields.io/github/issues/ricardohsmello/microprofile-thorntail) 
 ![Forks](https://img.shields.io/github/forks/ricardohsmello/microprofile-thorntail) 
 ![Stars](https://img.shields.io/github/stars/ricardohsmello/microprofile-thorntail) 
-![Release Version](https://img.shields.io/github/release/ricardohsmello/microprofile-thorntail)![Issues](https://img.shields.io/github/issues/ricardohsmello/microprofile-thorntail) 
-![Forks](https://img.shields.io/github/forks/ricardohsmello/microprofile-thorntail) 
-![Stars](https://img.shields.io/github/stars/ricardohsmello/microprofile-thorntail) 
 ![Release Version](https://img.shields.io/github/release/ricardohsmello/microprofile-thorntail)
 
 # My Hello World from microservices
